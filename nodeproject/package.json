@@ -1,0 +1,31 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hari96/nodejs-project1.git"
+  },
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~4.13.3",
+    "gulp": "^3.9.1",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hari96/nodejs-project1/issues"
+  },
+  "homepage": "https://github.com/Hari96/nodejs-project1#readme"
+}
