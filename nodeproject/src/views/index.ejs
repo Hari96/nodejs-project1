@@ -75,7 +75,9 @@
                     </li>
                     
                     <% for(var i=0; i<nav.length; i++) { %>
-                         <li><a class="page-scroll" href="#<%=nav[i] %>"><%=nav[i] %></a></li>
+                        <li>
+                          <a class="page-scroll" href="#<%=nav[i].Link %>"><%=nav[i].Text %></a>
+                        </li>
                     <% } %>
                     <!--<li>-->
                     <!--    <a class="page-scroll" href="#services">Services</a>-->
